@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Music.com</title>
+
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            margin-left: -6px;
+            margin-right: -6px;
+            margin-top: 0;
+        }
+        .tk{
+            vertical-align: top;
+            margin-left: 5px;
+            margin-top: -12px;
+        }
+        .one{
+            width: 100%;
+        }
+        .oneimage{
+            width: 100%;
+            height: 300px;
+        }
+        .dodp{
+            height: 100px;
+        }
+        .odp{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        .info-grid{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .some{
+            margin-left: 4px;
+        }
+        .header{
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+            border-bottom-color: rgb(240, 240, 240);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: white;
+        }
+        .leftsection{ 
+            display: flex;
+            width: 250px;
+            align-items: center;
+            margin-left: -6px;
+            border-radius: 7px;
+           
+        }
+        .middlesection{
+            display: flex;
+            flex: 1;
+            align-items: center;
+            margin-left: 70px;
+            margin-right: 20px;
+            border-radius: 7px;
+        }
+        .rightsection{
+            width: 180px;
+            display: flex;
+            margin-right: -5px;
+            align-items: center;
+            border-radius: 7px;
+            justify-content: space-between;
+        }
+        .ham{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+     }
+     .music-icon{
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+    }
+    .search-button{
+    height: 40px;
+    width: 66px ;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    background-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 10px;
+
+    }
+    .search{
+        height: 35px;
+        width: 67px;
+        background-color: gray;
+        display: flex;
+        align-items: center;
+    }
+            .search-bar{
+        flex: 1;
+        height: 34px;
+        padding-right: 0;
+        border-width: 2px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        box-shadow: inset 1px 2px 3px rgb(0, 0, 0, 0.05);
+        width: 0;
+        }
+            .search-bar::placeholder{
+            font-family: Arial;
+            font-size: 16px;
+        }
+        .google{
+    height: 24px;
+
+    }
+    .noti{
+        height: 24px;
+    }
+    .body-info{
+        margin-top: 57px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="leftsection">
+                <img class="ham" src="Hamburger_icon.svg.png">
+                <img  class="music-icon" src="music icon.jpg">
+            </div>
+            <div class="middlesection">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-button"> <img class="search" src="search.png"></button>
+            </div>
+            <div class="rightsection">
+                <img  class="google" src="google.webp">
+                <img class="noti" src="notification.png">
+                <img class=" odp" src="One day profile.jpg">
+            </div>
+        </div>
+
+        <div class="body-info">
+            <div class="grid">
+                <div class="one">
+                    <video class="oneimage " poster="One day.jpg" controls>
+                        <source src="moon.mp4" type="video/mp4"></video>
+                    <div class="info-grid">
+                        <div class="dodp"> <img class="odp" src="One day profile.jpg"><video></video></div>
+                    <div class="tk">
+                        <p class="some">sometimes i lay under the moon</p>
+                        <p  class="author">China Choir</p>
+                        <p class="status">4.5 million views &#183; 6momths ago</p>
+                    </div>
+                    </div>
+                    
+                </div>
+              <div class="one">
+                  <video class="oneimage" poster="Kana Funny.jpg" controls>
+                      <source src="kanna funny.mp4" type="video/mp4"></video>
+                  <div class="info-grid">
+                      <div class="dodp"><img class="odp" src="Kana Funny.jpg"></div>
+                      <div class="tk">
+                          <p>Kaana funny</p>
+                        <p>kammade wa kioi</p>
+                        <p>2.3 million views &#183; 1year ago</p>
+                    </div>
+                </div>
+              </div>
+            
+              <div class="one">
+                <video class="oneimage" poster="thii.jpg" controls>
+                    <source src="thii uhike.mp4" type="video/mp4"></video>
+                <div class="info-grid">
+                    <div class="dopd"> <img class="odp" src="Muti.jpg"></div>
+                    <div class="tk">
+                         <p>Thiii uhike</p>
+                        <p>kammade wa kioi</p>
+                        <p>7.3 million views &#183; 3year ago</p></div>
+                    </div>
+                 </div>
+                 </div>  
+            
+            
+            
+            
+                 <div class="grid">
+                    <div class="one">
+                       <video  class="oneimage " poster="Ona Dakua.jpg" controls>
+                           <source src="Ona Dakua.mp4" type="video/mp4"></video>
+                        <div class="info-grid">
+                            <div class="dodp"> <img class="odp" src="Ona Dakua.jpg"></div>
+                        <div class="tk">
+                            <p> Never postme on status when am nomore</p>
+                            <p>Miracle Baby & Carlo Katu</p>
+                            <p>4.5 billion views &#183; 4weeks ago</p>
+                        </div>
+                        </div>
+                        
+                    </div>
+                  <div class="one">
+                      <video class="oneimage" poster="Muti.jpg" controls>
+                          <source src="maovakando.mp4" type="video/mp4"></video>
+                      <div class="info-grid">
+                          <div class="dodp"><img class="odp" src="But You can't.jpg"></div>
+                          <div class="tk">
+                              <p>Oyo muovakando no nginya okurwo</p>
+                            <p>Kamade wa kioi</p>
+                            <p>6.3 million views &#183; 1year ago</p>
+                        </div>
+                    </div>
+                  </div>
+                
+                  <div class="one">
+                   <video class="oneimage" poster="Naja mbele.jpg" controls>
+                       <source src="naja mbele zako.mp4" type="video/mp4"></video>
+                    <div class="info-grid">
+                        <div class="dopd"> <img class="odp" src="a million tongues.jpg"></div>
+                        <div class="tk">
+                             <p>Naja mbele zako</p>
+                            <p>Baraka Serge</p>
+                            <p>7.3 million views &#183; 2 months ago</p></div>
+                        </div>
+                     </div>
+                     </div>  
+            
+                     <div class="grid">
+                        <div class="one">
+                           <video  class="oneimage"  poster="you.jpg" controls>
+                               <source src="Mnyunyizi wangu.mp4" type="video/mp4"></video>
+                            <div class="info-grid">
+                                <div class="dodp"> <img class="odp" src="Kabu.jpg"></div>
+                            <div class="tk">
+                                <p  >Mnyunyizi wangu</p>
+                                <p>Sarah K</p>
+                                <p>4.5 million views &#183; 5 days ago</p>
+                            </div>
+                            </div>
+                            
+                        </div>
+                      <div class="one">
+                          <video class="oneimage" poster="Trio.jpg" controls>
+                              <source src="Sipangwingwi.mp4" type="video/mp4"></video>
+                          <div class="info-grid">
+                              <div class="dodp"><img class="odp" src="Kana Funny.jpg"></div>
+                              <div class="tk">
+                                  <p>Sipangwingwi</p>
+                                <p>Trio Mio & Ssaru</p>
+                                <p>2.3 million views &#183; 1year ago</p>
+                            </div>
+                        </div>
+                      </div>
+                    
+                      <div class="one">
+                        <video class="oneimage"poster="Andu.jpg" controls>
+                            <source src="Andu A Wuiru.mp4" type="video/mp4"></video>
+                        <div class="info-grid">
+                            <div class="dopd"> <img class="odp" src="Muti.jpg"></div>
+                            <div class="tk">
+                                 <p>Andu A Wuiru</p>
+                                <p>Miracle Baby & Carlo Katu</p>
+                                <p>7.3 million views &#183; 3year ago</p></div>
+                            </div>
+                         </div>
+                         </div>  
+            
+                         <div class="grid">
+                            <div class="one">
+                                <video class="oneimage" poster="Usiniharibie.jpg" controls >
+                                    <source src="Usiniharibie Mood.mp4" type="video/mp4"></video>
+                                <div class="info-grid">
+                                    <div class="dodp"> <img class="odp" src="One day profile.jpg"></div>
+                                <div class="tk">
+                                    <p  >Usiniaharibie Mood</p>
+                                    <p>Meja</p>
+                                    <p>4.5 million views &#183; 6momths ago</p>
+                                </div>
+                                </div>
+                                
+                            </div>
+                          <div class="one">
+                             <video  class="oneimage" controls>
+                                 <source src="Why.mp4" type="video/mp4"></video>
+                              <div class="info-grid">
+                                  <div class="dodp"><img class="odp" src="Kana Funny.jpg"></div>
+                                  <div class="tk">
+                                      <p>Kaana funny</p>
+                                    <p>kammade wa kioi</p>
+                                    <p>2.3 million views &#183; 1year ago</p>
+                                </div>
+                            </div>
+                          </div>
+                        
+                          <div class="one">
+                            <video class="oneimage" controls>
+                                <source src="Adhiambo.mp4" type="video/mp4"></video>
+                            <div class="info-grid">
+                                <div class="dopd"> <img class="odp" src="Muti.jpg"></div>
+                                <div class="tk">
+                                     <p>Adhiambo</p>
+                                    <p>Bahati</p>
+                                    <p>7.3 million views &#183; 3year ago</p></div>
+                                </div>
+                             </div>
+                             </div>  
+            
+        </div>
+  
+     
+    </body>
+</html>
